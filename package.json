@@ -1,0 +1,29 @@
+{
+  "name": "node-openai",
+  "version": "1.0.0",
+  "description": "Integrated Chatgpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardCodeTriber/Node-OpenAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EdwardCodeTriber/Node-OpenAI/issues"
+  },
+  "homepage": "https://github.com/EdwardCodeTriber/Node-OpenAI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "openai": "^4.80.1"
+  }
+}
